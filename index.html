@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Mtime 时光网</title>
+<link type="image/x-icon" rel="icon" href="i/favicon.ico"/>
+<link href="css.css" rel="stylesheet" type="text/css">
+<link href="public.css" rel="stylesheet" type="text/css">
+<script src="jquery-2.0.3.min.js"></script>
+<script src="js.js"></script>
+<script src="move4.js"></script>
+</head>
+<body>
+   <div class="topbar">
+      <div class="searchshadow">
+         <div class="selctsearch" id="selctsearch">
+            <strong>全部</strong>
+            <div></div>
+            <span>|</span> 
+         </div>
+         <div class="selctshow" id="selctshow" style="display:none; ">
+            <ul>
+               <li>全部</li>
+               <li>电影</li>
+               <li>影人</li>
+               <li>影院</li>
+               <li>商品</li>
+            </ul>
+         </div>
+         <div class="search_pre" id="search_pre">
+         </div>
+         <input type="text" name="key" value="" autocomplete="off" placeholder="搜索电影、影人、影院、商品" class="search_text" id="search_text" />
+         <input type="button" class="search_button" id="search_button"/>
+      </div>
+      
+   </div>
+   <div class="topbar_buttom">
+       <div class="logo">
+          <a href="#"><img src="i/logo.gif"/></a>
+       </div>
+   </div>
+
+   <div class="pic_news">
+      <ul class="nov_bar">
+         <li class="atcive"><a href="#">首页</a></li>
+         <li><a href="#">新闻</a></li>
+         <li><a href="#">影院</a></li>
+         <li><a href="#">商城</a>
+             <div></div>
+         </li>
+         <li><a href="#">社区</a></li>
+         <li><a href="#">发现</a></li>
+      </ul> 
+      <ul class="loaction">
+         <li><a href="#">我在：重庆 <div style="width:20px; height:27px; background:url(i/topbar.png) -294px -158px; position:absolute; top:0; right:0;"></div></a></li>
+         <li style="width:85px;"><a href="#" >请登录<div style="width:27px; height:27px;  border-left:1px white solid; background:url(i/topbar.png) -272px -110px; position:absolute; top:0; right:0;"></div></a></li>
+         <li style="width:27px; height:27px; background:url(i/topbar.png) -358px -149px; cursor:pointer;"></li>
+      </ul>
+      
+      <a href="javascript:;"><div class="pre_img" id="pre_img"></div></a>
+      <a href="javascript:;"><div class="next_img" id="next_img"></div></a>
+       
+   </div>
+   <div class="pic_news_show" >
+      <ul id="big_pic_a" >
+        <li style=" width:100%; height:500px; background:url(i/081820.75835824.jpg)  no-repeat ; opacity:1; z-index:1"></li>
+        <li style=" width:100%; height:500px; background:url(i/081849.70650887.jpg)  no-repeat; z-index:0"></li>
+        <li style=" width:100%; height:500px; background:url(i/082646.10331975.jpg)  no-repeat; z-index:0"></li>
+        <li style=" width:100%; height:500px; background:url(i/091603.91706093.jpg)  no-repeat; z-index:0"></li>
+        <li style=" width:100%; height:500px; background:url(i/081234.70813966.jpg)  no-repeat; z-index:0"></li>
+      </ul>
+   </div>
+   <div class="index_shadow" id="index_shadow"><img src="i/index_shadow.png"/></div>
+      
+   <div class="today_nows">
+       <div class="today_nows_a">
+          <h4>今日<span>快讯</span></h4>
+          <ul>
+             <li>
+                <p>一小时前</p>
+                <a href="#"><img src="i/115602.73527612_86X86X4.jpg"/></a>
+                <a href="#">
+                   <h3>"星战7"与IMAX达成协议</h3>
+                   <p>将在全球范围IMAX影厅上映满4周，或创票房新纪录。</p>
+                </a>
+             </li>
+             <li>
+                <p>一小时前</p>
+                <a href="#"><img src="i/103435.51864545_86X86X4.jpg"/></a>
+                <a href="#">
+                   <h3>"美恐:旅馆"发首波剧照</h3>
+                   <p>12位主角现身,LadyGaga饰演一位名媛,也是酒店女主人。</p>
+                </a>
+             </li>
+             <li>
+                <p>一小时前</p>
+                <a href="#"><img src="i/104659.62810137_86X86X4.jpg"/></a>
+                <a href="#">
+                   <h3>洪常秀新片海报亲自题字</h3>
+                   <p>《这时对那时错》片名字体浪漫滑稽，9.24韩国上映。</p>
+                </a>
+             </li>
+             <li>
+                <p>一小时前</p>
+                <a href="#"><img src="i/102708.60002678_86X86X4.jpg"/></a>
+                <a href="#">
+                   <h3>"像素大战"曝女神莉莎片段</h3>
+                   <p>女神初登场，宅男被虐也幸福。影片9月15日内地上映。</p>
+                </a>
+             </li>
+          </ul>
+          <div class="clickmore_a">
+            <a href="#">更多<i></i></a>
+          </div>
+          
+       </div>
+       <div class="today_nows_b">
+          <div class="today_nows_b_a">
+             <a href="#"><img src="i/120816.42896515.jpg"></a>
+          </div>
+          <h3>
+             <a href="#">《闪电侠》第二季海报曝光</br><span style="text-align:center">“女闪电侠”将登场 10月6日回归</span>
+             </a>
+          </h3>
+          <div class="today_nows_b_b" style="float:left">
+             <a href="#"><img src="i/093939.92283909.jpg"/></a>
+             <a href="#" >
+                <p>主创揭秘“小黄人”起源</br>制片人:基因决定作恶本色</p>
+             </a>
+          </div>
+          <div class="today_nows_b_b" style="float:left;  margin-left:15px;">
+             <a href="#"><img src="i/094622.11451594.jpg"/></a>
+             <a href="#">
+                <p>《玩命速递4》发海量剧照</br>"速递人"换代 内地确定引进</p>
+             </a>
+          </div>
+       </div>
+       <div class="today_nows_c">
+          <div class="today_nows_c_a">
+             <h4>产业<span>聚焦</span></h4>
+             <p>FOCUS</p>
+             <div style="width:17px; height:9px; background:url(i/allicon.gif) no-repeat; position:absolute; top:72px; left:98px;"></div>
+          </div>
+          <ul>
+             <li><a href="#">"肿瘤君"内地票房连冠</br>"终结者5"终结影市旱情</a></li>
+             <li><a href="#">小马奔腾否认破产传闻</br>创始人离世后前途不明</a></li>
+             <li><a href="#">乐高品牌价值已超法拉利</br>新纪录片透视乐高历史</a></li>
+             <li><a href="#">犯罪喜剧"东北偏北"撤档</br>“因技术原因”推迟上映</a></li>
+             <li style="border-bottom:0px;">
+                <a href="#">>>打击网络诈骗</br>共建和谐社会</a>
+                <i>公益</i>
+             </li>
+          </ul>
+          <div class="clickmore_a" style=" background:white; width:41px;padding:0 10px; position:absolute; top:558px; left:82px;">
+            <a href="#">更多<i></i></a>
+          </div>
+       </div>
+       <div class="today_news_d" id="today_news_d">
+          <ul>
+             <li style="background:url(i/165527.95133283.jpg) no-repeat right bottom;"><a href="#">中国时尚展风靡美国</br><span>巩俐范冰冰红毯战袍在列</span></a></li>
+             <li style="background:url(i/163629.92656347.jpg) no-repeat right bottom;"><a href="#">"侏罗纪世界"幕后花絮</br><span>“星爵”驯龙有方</span></a></li>
+             <li style="background:url(i/122821.59228825.jpg) no-repeat right bottom;"><a href="#">蝙蝠侠众反派唱嘻哈</br><span>小丑双面人贝恩集结</span></a></li>
+             <li style="background:url(i/115200.52755771.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li style="background:url(i/101003.55400409.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li style="background:url(i/160606.40902387.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li style="background:url(i/180736.34860799.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li style="background:url(i/154218.71125841.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li style="background:url(i/082732.27866907.jpg) no-repeat right bottom;"><a href="#">迪士尼公主变短发啥样</br><span>PS大神脑洞大开</span></a></li>
+             <li >
+                <div class="clickmore_a">
+            <a href="#">更多<i></i></a>
+               </div>
+             </li>
+          </ul>
+       </div>
+       <div class="oBtn_left_class" id="oBtn_left_class" style="position:absolute; top:720px; left:-25px; cursor:pointer; display:none;"></div>
+       <div class="oBtn_right_class" id="oBtn_right_class" style="position:absolute;top:720px; right:-25px;  cursor:pointer;"></div>
+   </div>
+   <div class="tuijian_nov">
+      <ul>
+         <li style="border:none;">推荐：</li>
+         <li style="border:none;"><a href="">新片预告</a></li>
+         <li><a href="">电影热榜</a></li>
+         <li><a href="">全球票房</a></li>
+         <li><a href="">时光对话</a></li>
+         <li><a href="">全球拾趣</a></li>
+      </ul>
+      <div>
+         <i></i>
+         <span><a href="#">进入新闻频道</a></span>
+      </div>  
+      <div style="clear:both; position:absolute;top:80px; left:0;"><a href="#"><img src="i/ad1.gif"/></a></div>
+   </div>
+   
+   <div class="movie_now">
+      <h4>
+        正在热映<span>57</span>部
+        <div class="clickmore_a" style=" background:white; width:41px;padding:0 10px;">
+            <a href="#">更多<i></i></a>
+        </div>
+      </h4>
+      <div class="movie_now_select">
+         <a href="javascript:;">
+            <div class="movie_now_select_add">
+               <span></span><h3 id="movie_now_select_add">重庆</h3><em></em>
+            </div>
+         </a>
+         <a href="javascript:;">
+            <div class="movie_now_select_movie" id="movie_now_select_movie">
+               <p style="display:inline; overflow:hidden;text-overflow:ellipsis; ">选影片</p>
+               <em></em> 
+               <h3>共<span>31</span>部</h3>              
+            </div>
+         </a>
+         <a href="javascript:;">
+            <div class="movie_now_select_movie" id="add_now_select_movie">
+               <p style="display:inline;">选影院</p>
+               <em></em> 
+               <h3>共<span id="cinema_total1"></span>家</h3>
+            </div>
+         </a>
+         <a href="javascript:;">
+            <div class="movie_now_select_movie " id="time_now_select_movie">
+               <p style="display:inline; color:#D5D0D0;">选时间</p>
+            </div>
+         </a>
+         <a href="javascript:;">
+            <div class="click_buy">
+               选座购票
+            </div>
+         </a>
+      </div>
+      
+      
+ <!--点击弹出地点选择-->     
+      <div class="movie_now_select_add_form" style="display:none;">
+         <div style="height:1px; border-top:1px #ccc solid; border-radius:0 5px 0 0; width:375px; position:absolute; top:-1px;right:-1px"></div>
+         <div class="movie_add_nov" >
+            <ul style="margin-left:15px;">
+              <li><a href="javascript:;">热门</a></li>
+              <li><a href="javascript:;">A-G</a></li>
+              <li><a href="javascript:;">H-L</a></li>
+              <li><a href="javascript:;">M-T</a></li>
+              <li><a href="javascript:;">W-Z</a></li>
+            </ul>
+            <i class="three_i"></i>
+         </div>
+         <div class="movie_add_all" style="display:block;">
+            <ul>
+              <li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li><li>北京</li>
+            </ul>
+         </div>
+         <div class="movie_add_all">
+            <ul><li>重庆</li><li>重庆</li><li>重庆</li><li>重庆</li><li>重庆</li><li>重庆</li></ul>
+         </div>
+         <div class="movie_add_all">
+            <ul><li>重庆</li><li>深圳</li><li>重庆</li><li>深圳</li><li>重庆</li><li>深圳</li><li>重庆</li><li>深圳</li></ul>
+         </div>
+         <div class="movie_add_all">
+         <ul><li>重庆</li><li>深圳</li><li>重庆</li><li>深圳</li><li>重庆</li><li>深圳</li></ul>
+         </div>
+         <div class="movie_add_all">
+         <ul><li>重庆</li><li>深圳</li></ul>
+         </div>
+      </div>
+ <!--End-->
+ 
+ <!--点击弹出影片选择-->  
+      
+
+      <div class="movie_pic_choose">
+         <div style="width:696px; height:294px; position:absolute; top:36px; left:36px; overflow:hidden; ">
+            <ul class="movie_pic_choose_ul">
+               <li>
+                  <div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2; "></div>
+                  <a href="#" style="position:relative;">
+                     <img src="i/movie_pic/094552.75912154_140X210X4.jpg"/>
+                     <div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div>
+                  </a>
+                  <a href="#">终结者：创世纪</a>
+                  <p>年度科幻撕逼大戏</p>
+                  <a href="javascript;;">
+                     <div>选座购票</div>
+                  </a>
+               </li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/084818.48257943_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/090438.42386280_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/090845.41268959_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/142153.29114538_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/142003.58629160_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/142153.29114538_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+               <li><div style="width:44px; height:44px; background:url(i/allicon24.png) 0 -215px no-repeat; position:absolute; top:0; left:0; z-index:2;"></div> <a href="#" style="position:relative;"><img src="i/movie_pic/094552.75912154_140X210X4.jpg"/><div style="width:35px; height:35px; background:#679c21; color:white; font-size:20px; line-height:35px; position:absolute; left:107px; top:188px; z-index:2; border-radius:0;">6.5</div> </a><a href="#">终结者：创世纪</a><p>年度科幻撕逼大戏</p><a href="javascript;;"><div>选座购票</div></a></li>
+            </ul>
+         </div>
+         <div class="oBtn_left_class" id="oBtn_left_class_b" style="position:absolute; top:152px; left:6px; cursor:pointer;display:none; "></div>
+         <div class="oBtn_right_class" id="oBtn_right_class_b" style="position:absolute;top:152px; left:739px;  cursor:pointer; "></div>
+      </div> 
+      
+       <div class="movies_choose_scelet" style="display:none;" >
+         <div class="movies_choose_search">
+            <form>
+              <input type="text" name="key" value="" autocomplete="off" placeholder="输入影片名称快速定位" style="width:160px; border:none; font-size:14px; line-height:20px; color:#bababa; background:#f7f7f7; display:block;margin-top:5px; margin-left:15px;"/>
+              <input type="button" name="key" value="" style="width:16px; height:16px; background:url(i/topbar.png) no-repeat -160px -111px; border:none; display:inline-block; position:absolute; top:7px; right:17px; cursor:pointer;"/>
+            </form>
+         </div>
+        <div class="movies_choose_name" >
+           <ul id="movies_choose_name">
+         
+           </ul>
+        </div>
+      </div>
+      
+      <div class="add_choose_scelet" id="add_choose_scelet" style="display:none;">
+         <p>当前共<span id="cinema_total2"></span>家影院</p>
+         <div class="add_choose_search">
+            <form>
+              <input type="text" name="key" value="" autocomplete="off" placeholder="输入影院名称快速定位" style="width:160px; border:none; font-size:14px; line-height:20px; color:#bababa; background:#f7f7f7; display:block;margin-top:5px; margin-left:15px;"/>
+              <input type="button" name="key" value="" style="width:16px; height:16px; background:url(i/topbar.png) no-repeat -160px -111px; border:none; display:inline-block; position:absolute; top:7px; right:17px; cursor:pointer;"/>
+            </form>
+         </div>
+        <div class="add_cinema_name" id="add_cinema_name" ">
+      
+        </div>
+      </div> 
+      
+   </div>
+
+   <div class="footout"><span class="topline"></span><div class="footinner clearfix"><div class="fotlogo"><dl><dt><a href="http://www.mtime.com" title="Mtime时光网">Mtime时光网</a></dt><dd class="clearfix"><a href="http://jobs.mtime.com/">加入我们</a><a href="http://feature.mtime.com/help/contact.htm" class="ml30">联系我们</a></dd><dd class="clearfix"><a href="http://group.mtime.com/help/">站务论坛</a><a href="http://my.mtime.com/reportError/" class="ml30">问题反馈</a></dd><dd class="clearfix"><a href="http://feature.mtime.com/help/rules.htm">社区准则</a><a href="http://www.mtime.com/sitemap.htm" class="ml30">网站地图</a></dd><dd class="clearfix"><a href="http://feature.mtime.com/help/privacy.htm">隐私政策</a><a href="http://en.mtime.com/" class="ml30">English</a></dd></dl><i class="line"></i></div><div class="fotmap"><dl style="width:42px;"><dt>栏目</dt><dd><a href="http://news.mtime.com/">新闻</a></dd><dd><a href="http://theater.mtime.com/">影院</a></dd><dd><a href="http://mall.mtime.com">商城</a></dd><dd><a href="http://www.mtime.com/community/">社区</a></dd></dl><dl style="width:185px;"><dt>推荐</dt><dd><a href="http://www.mtime.com/top/movie/top100/">电影热榜</a><a href="http://movie.mtime.com/new/" class="ml30">全球新片</a></dd><dd><a href="http://news.mtime.com/conversation/">时光对话</a><a href="http://movie.mtime.com/classic/" class="ml30">典藏佳片</a></dd><dd><a href="http://video.mtime.com/trailer/">新片预告</a><a href="http://award.mtime.com/all/" class="ml30">电影节</a></dd><dd><a href="http://www.mtime.com/weekly/">时光周刊</a><a href=" http://my.mtime.com/app/card/" class="ml30">卡片大富翁</a></dd></dl><dl><dt>关注我们</dt><dd><a href="http://weibo.com/movietime?topnav=1&amp;wvr=5&amp;topsug=1" target="_blank" class="sina" title="新浪">新浪</a></dd><dd><a id="aWeiXinPicButton" href="javascript:void(0)" class="weixin" title="微信">微信</a></dd><dd><a href="http://www.mtime.com/rss/" target="_blank" class="rss" title="RSS">RSS</a></dd></dl><i class="line"></i><div id="divWeiXinPicContainer" class="my_layer" style="display: none;"> <em class="l_arrow">&nbsp;</em><div class="inner p15" style="width:195px;"><i></i><p>扫描二维码，微信实时关注时光网</p></div></div></div><div class="fotweek"><dl><dt class="clearfix"><span class="fr">第167期</span><strong>时光周刊</strong></dt>
+                <dd><a href="http://www.mtime.com/weekly/" target="_blank" title="时光周刊"><img src="i/165440.37855342.jpg" width="170" alt="时光周刊"></a></dd><dd class="input"><input id="iptEMail" type="text" value="邮箱地址" class="c_a5"><a id="btnSubscribe" href="javascript:void(0)">订阅</a></dd></dl></div><div class="fothr"><dl><dt><strong>手机购票</strong> 方便 实惠</dt><dd><a href="http://feature.mtime.com/mobile/" target="_blank"><i></i></a></dd><dd>扫描二维码 下载客户端</dd></dl></div></div></div>
+  
+ 
+  
+</body>
+</html>

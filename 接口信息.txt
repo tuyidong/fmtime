@@ -1,0 +1,17 @@
+搜索信息接口
+
+http://service.channel.mtime.com/Search.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Channel.Services&Ajax_CallBackMethod=GetSuggestObjs&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fwww.mtime.com%2F&t=201621721273116426&Ajax_CallBackArgument0=007&Ajax_CallBackArgument1=290&Ajax_CallBackArgument2=0
+
+城市影院地址信息
+http://service.theater.mtime.com/Cinema.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Cinema.Services&Ajax_CallBackMethod=GetOnlineTheatersInCity&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fwww.mtime.com%2F&t=201621921261060965&Ajax_CallBackArgument0=290&Ajax_CallBackArgument1=true
+
+290 北京 366 深圳 291重庆
+
+影片地址
+http://service.theater.mtime.com/Cinema.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Cinema.Services&Ajax_CallBackMethod=GetOnlineMoviesInCity&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fwww.mtime.com%2F&t=201621921311473991&Ajax_CallBackArgument0=291
+
+电影场次信息
+http://service.theater.mtime.com/Cinema.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Cinema.Services&Ajax_CallBackMethod=GetOnlineTicketShowtime&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fwww.mtime.com%2F&t=201621921351327636&Ajax_CallBackArgument0=209007&Ajax_CallBackArgument1=2601
+
+
+说明209007 为影片地址中的 movieId  2601为电影地址中的cinemaId
